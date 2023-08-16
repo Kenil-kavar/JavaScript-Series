@@ -1,0 +1,13 @@
+// Immegiately Invoke Function Expression
+
+(function chai()
+{
+    console.log("DB ONE CONNECTED")
+    
+})();
+
+( (name) =>
+{
+    console.log(`DB TWO CONNECTED  ${name}`)
+})("Kenil");
+// Very Important topic for the interview revice it carefully
